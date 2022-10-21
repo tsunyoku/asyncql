@@ -1,5 +1,10 @@
 # asyncql
 
+<p>
+<a href="https://pypi.org/project/asyncql/">
+    <img src="https://badge.fury.io/py/asyncql.svg" alt="Package version">
+</a>
+
 An asynchronous python library for all your database needs.
 
 This is designed as an alternative/replacement for [databases](https://github.com/encode/databases), without the use of SQLAlchemy.
