@@ -1,4 +1,9 @@
 # asyncql
+<p>
+<a href="https://pypi.org/project/databases/">
+    <img src="https://badge.fury.io/py/databases.svg" alt="Package version">
+</a>
+</p>
 
 An asynchronous python library for all your database needs.
 
