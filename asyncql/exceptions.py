@@ -1,0 +1,2 @@
+class AsyncqlException(Exception):
+    pass

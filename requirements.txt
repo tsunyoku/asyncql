@@ -1,0 +1,8 @@
+aiomysql
+asyncpg
+aiosqlite
+
+black
+mypy
+isort
+autoflake
