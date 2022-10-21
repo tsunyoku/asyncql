@@ -15,7 +15,7 @@ This is designed as an alternative/replacement for [databases](https://github.co
 
 Currently supported databases:
 
-- [MySQL (with asyncmy)](https://github.com/long2ice/asyncmy)
+- [MySQL (with aiomysql)](https://github.com/aio-libs/aiomysql)
 
 You can install `asyncql` with your desired database like so:
 
