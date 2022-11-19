@@ -24,7 +24,7 @@ def get_packages() -> list[str]:
     return [
         directory_path
         for directory_path, _, _ in os.walk("asyncql")
-        if os.path.exists(os.path.join(directory_path, "__init_.py"))
+        if os.path.exists(os.path.join(directory_path, "__init__.py"))
     ]
 
 
