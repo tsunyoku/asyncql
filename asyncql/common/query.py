@@ -34,6 +34,8 @@ def _sanitize_value(value: Any) -> str:
     elif isinstance(value, Sequence):
         sanitized_sequence = [_sanitize_value(v) for v in value]
         value = f"({','.join(sanitized_sequence)})"
+    elif value is None:
+        value = "NULL"
     else:
         value = _sanitize_str(str(value))
 
