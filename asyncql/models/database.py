@@ -13,7 +13,7 @@ from asyncql.models.url import DatabaseURL
 
 
 class Database:
-    BACKENDS = {"mysql": "asyncql.backends.mysql:MySqlBackend"}
+    BACKENDS = {"mysql": "asyncql.backends.mysql:MySQLBackend"}
 
     def __init__(
         self,
